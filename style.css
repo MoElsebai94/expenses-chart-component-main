@@ -1,0 +1,186 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --softRed: hsl(10, 79%, 65%);
+  --cyan: hsl(186, 34%, 60%);
+  --darkBrown: hsl(25, 47%, 15%);
+  --mediumBrown: hsl(28, 10%, 53%);
+  --cream: hsl(27, 66%, 92%);
+  --veryPaleOrange: hsl(33, 100%, 98%);
+
+  --fontSize: 18px;
+  --desktopWidth: 1440px;
+  --mobileWidth: 375px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: var(--cream);
+}
+
+.main__body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.balance__section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background-color: var(--softRed);
+  width: 480px;
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+}
+
+.balance__container {
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+  text-align: left;
+}
+
+.balance {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.chart__section {
+  background-color: var(--veryPaleOrange);
+  width: 480px;
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.neatH1 {
+  text-align: left;
+  color: var(--darkBrown);
+}
+
+.solid {
+  border-top: 1px solid var(--cream);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.revenue {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.percentage {
+  color: var(--darkBrown);
+  font-weight: 700;
+}
+
+.total > p {
+  text-align: left;
+  color: var(--mediumBrown);
+}
+
+.revenue > p {
+  color: var(--mediumBrown);
+}
+
+.bottomSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.total > h1 {
+  font-size: 48px;
+}
+
+.day {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 428px;
+  color: var(--mediumBrown);
+}
+
+.chartDisplay {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 68px;
+  height: 150px;
+  background-color: var(--veryPaleOrange);
+}
+
+.a {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  width: 48px;
+  height: 50px;
+}
+
+.b {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  width: 48px;
+  height: 100px;
+}
+
+.c {
+  background-color: var(--cyan);
+  border-radius: 5px;
+  width: 48px;
+  height: 150px;
+}
+
+.d {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  width: 48px;
+  height: 90px;
+}
+
+.e {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  width: 48px;
+  height: 68px;
+}
+
+.f {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  width: 48px;
+  height: 125px;
+}
+
+.g {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  width: 48px;
+  height: 75px;
+}
+
+.chartDisplay > div:hover {
+  cursor: pointer;
+}
